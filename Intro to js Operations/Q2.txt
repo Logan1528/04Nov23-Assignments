@@ -1,0 +1,51 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Assignment Operators
+    
+    Assignment operators are used to assign values to variables. 
+
+EX:
+    const x = 5
+
+    Here, the = operator is used to assign value 5 to variable x.
+
+Arithmetic Operators
+
+    Arithmetic operators are used to perform arithmetic calculations. For example,
+
+EX:
+
+    const number = 3 + 5; // 8
+    Here, the + operator is used to add two operands.
+
+Comparison Operators
+    
+    Comparison operators compare two values and return a boolean value, either true or false. For example,
+
+EX:
+
+    const a = 3, b = 2;
+    console.log(a > b); // true 
+    Run Code
+    Here, the comparison operator > is used to compare whether a is greater than b.
+
+Logical Operators
+
+    Logical operators perform logical operations and return a boolean value, either true or false. For example,
+
+EX:
+
+    const x = 5, y = 3;
+    (x < 6) && (y < 5); // true
+    Here, && is the logical operator AND. Since both x < 6 and y < 5 are true, the result is true.
+
+Unary Operator
+
+    Unary operators are operators that perform actions on a single operand. Let’s explore some of the Unary
+operators:
+
+EX:
+    const num = "21";
+    conts rollNum = +num;
+    console.log(rollNum);

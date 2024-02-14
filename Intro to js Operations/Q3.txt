@@ -1,0 +1,79 @@
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Unary, Binary, and Ternary Operators in JavaScript – Explained with Examples
+    
+    Unary operators: which require one operand (Un)
+    Binary operators: which require two operands (Bi)
+    Ternary operators: which require three operands (Ter)
+
+What is a Unary Operator?
+
+    These operators require one operand for operation. Providing two or more can result in a syntax error.
+
+The delete operator
+    You can use the delete operator to delete an item in an array or delete a property in an object. It's a unary operator that requires only one operand. Here's an example with an array:
+
+const array = [2,3,4]
+delete array[2]
+
+console.log(array)
+// [ 2, 3, <empty> ]
+Note that deleting items from an array with the delete operator is not the right way to do this. I explained why in this article here
+
+And here's an example with an object:
+
+const object = {
+  name: "deeecode",
+  age: 50
+}
+delete object.age
+
+console.log(object)
+// { name: 'deeecode' }
+
+What is a Binary Operator?
+
+    These operators require two operands for operation. If one or more than two operands are provided,
+such operators result in a syntax error.
+
+Arithmetic Operators
+All arithmetic operators are binary operators. You have the first operand on the left of the operator, and the second operand on the right of the operator. Here are some examples:
+
+10 + 20
+// 30
+
+20 - 5
+// 15
+
+30 / 6
+// 5
+If you don't provide two operands, you will get a syntax error. For example:
+
+10 +
+// SyntaxError: Unexpected end of input
+
+What is a Ternary Operator?
+
+    These operators require three operands. In JavaScript, there is one operator that falls under 
+this category – the conditional operator.
+
+The conditional operator requires three operands:
+
+the conditional expression
+the truthy expression which gets evaluated if the condition is true
+the falsy expression which gets evaluated if the condition is false.
+You can learn more about the Conditional Operator here
+
+Here's an example of how it works:
+
+const score = 80
+const scoreRating = score > 50 ? "Good" : "Poor"
+
+// "Good"
+The first operand – the conditional expression – is score > 50.
+
+The second operand – the truthy expression – is "Good", which will be returned to the variable scoreRating if the condition is true.
+
+The third operand – the falsy expression – is "Poor", which will be returned to the variable scoreRating if the condition is false.
+
+

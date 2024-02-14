@@ -1,0 +1,64 @@
+Q1: Explain what JavaScript is and its role in web development.
+
+	JavaScript is a scripting or programming language that allows you to implement
+ complex features on web pages — every time a web page does more than just sit there 
+and display static information for you to look at — displaying timely content updates,
+ interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can 
+bet that JavaScript is probably involved. It is the third layer of the layer cake of 
+standard web technologies.
+
+
+
+JavaScript is widely used for building websites and web applications. Let’s 
+discuss some practical applications of JavaScript in various segments.
+
+1. Web Development
+	
+	JavaScript is a scripting language used to develop web pages. Developed in 
+Netscape, JS allows developers to create a dynamic and interactive web page to 
+interact with visitors and execute complex actions. It also enables users to load
+ content into a document without reloading the entire page. Most websites use 
+JavaScript for validation and to support external applications, including PDF 
+documents, widgets, flash applications. Some of the world’s largest tech companies
+ use JavaScript to better the user experience. 
+
+	Some famous websites built by the use of JavaScript are Google, YouTube, 
+Facebook, Wikipedia, Yahoo, Amazon, eBay, Twitter, and LinkedIn, to name a few. 
+
+2. Web Applications
+
+	Various JavaScript frameworks are used for developing and building robust 
+web applications. In an application like Google Maps, if users want to explore a 
+map, all they have to do is click and drag the mouse to get a detailed view. This
+ is powered by JavaScript, which interacts with the browser without communicating
+ with the servers. Popular JavaScript front-end frameworks that help build web 
+apps are React Native, React, Angular and Vue. Netflix and PayPal were developed
+ with AngularJS JavaScript framework and Application Programming Interfaces (APIs). 
+
+3. Presentations
+	
+	A very popular application of JavaScript is to create interactive presenta
+tions as websites. The RevealJs and BespokeJs libraries can be used to generate 
+web-based slide decks using HTML. The RevealJs helps create interactive slide decks
+ with transitions styles, themes, and slide backgrounds in all CSS color formats. 
+The BespokeJs is a feature-heavy framework that includes features like scaling, 
+animated bullet lists, syntax highlighting, etc. Even if a user is not fully conversant
+ with a programming language, they can easily build presentations as websites using 
+JavaScript.
+
+4. Server Applications
+	
+	JavaScript is also used to write server-side software through Node.js open-source
+ runtime environment. Developers can write, test and debug code for fast and scalable 
+network applications. JavaScript helps to generate content and manage HTTP requests. 
+Top companies like Walmart, PayPal, Uber, GoDaddy, and many more have adopted Node.js
+ for server infrastructure.
+
+5. Games
+
+	Creating games on the web is another important one among applications of JavaScript.
+ The combination of JavaScript and HTML5 plays a major role in games development using JS. 
+The EaselJS library provides rich graphics for games. HTML5 provides total access to the web
+ without additional plugins like Flash. Complex browser games Tower Building, CrossCode, 
+HexGL game are based on JavaScript and HTML5. 
+
